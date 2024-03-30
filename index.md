@@ -3,33 +3,46 @@ title: Home
 layout: home
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# **An attempt to document the lcc hub social service project**
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+**Author**: enrique giottonini \
+**Status**: in progress \
+**Created**: 2024-03-29
 
-More specifically, the created site:
+---
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+The first task I received when I joined this social service project was to fix some
+broken features of the LCC Hub application. The only info at my disposal was the code
+in a GitHub repository, a one-page document with a very high level description of the project,
+and the credentials to access a server through ssh.
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+Unfortunately to me, the code was written in a language paradigm unknown to me (Dart/Flutter), in a monolithic fashion, with large sections of code sparsely commented,
+and commit messages that looked like this:
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+```bash
+commit 232c814, message: 'Login', showing 17 changed files with 424 additions and 59 deletions
+commit 2aa50f1, message: 'Project was restructured', showing 66 changed files with 937 additions and 316 deletions
+```
 
-To get started with creating a site, simply:
+A lot of time went lost trying to make sense of the project, I was planning to maybe try to
+document it, or attack it through testing, but at the end,
+we decided to rewrite it all over again.
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+## How to not repeat the same mistakes?
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+My suggestion is to try to document our thoughts. Since we lack expertise, we tend to try many
+things until we run out of time, and then we inadvertently cover our tracks. With documentation
+we could share that knowledge, explain decisions, and facilitate resources to others. At the same
+time, exposing ourselves in this way force us to be conscious in how we approach the project, and the results are more honest.
 
-----
+The idea is not new, and the blog post ['Documentation as way to build Community'](https://labs.quansight.org/blog/2020/03/documentation-as-a-way-to-build-community) may persuade you better in favor of taking more importance to documentation in your next projects.
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+## Approach
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+Let's use a [Documentation System](https://documentation.divio.com/) for the next reasons:
+
+1. It was recommended in Hacker News
+2. Seems to be used by NumPy, django, etc.
+
+If we have some first hand experience using a methodology for writing our documentation, we will
+be better equipped to use documentation from some big projects.

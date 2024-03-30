@@ -1,8 +1,13 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+logo: "/assets/images/logo-lcc.png"
+favicon: "/assets/images/favicon.ico"
+
+title: Documentation for LCC Hub
+description: Knowledge transfer for upcoming students doing their social service
 theme: just-the-docs
 
 url: https://just-the-docs.github.io
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Repository: https://github.com/CC-unison/documentation-lcchub
+
+aux_links_new_tab: true
