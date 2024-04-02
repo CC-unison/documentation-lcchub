@@ -4,50 +4,48 @@ layout: default
 nav_exclude: true
 ---
 
-# **An attempt to document the lcc hub social service project**
-
-**Author**: enrique giottonini \
-**Status**: in progress \
-**Created**: 2024-03-29
+# **lcc-hub documentation**
 
 ---
 
-The first task I received when I joined this social service project was to fix some
-broken features of the LCC Hub application. The only info at my disposal was code
-in a GitHub repository, a one-page document with a high level description of the project,
-and the credentials to access a server through ssh.
+## Philosophy
 
-Unfortunately to me, the code was written in a language paradigm unknown to me (Dart/Flutter), in a monolithic fashion, with large sections of code sparsely commented,
-and commit messages that looked like this:
+Yess
 
-```bash
-commit 232c814, message: 'Login', showing 17 changed files with 424 additions and 59 deletions
-commit 2aa50f1, message: 'Project was restructured', showing 66 changed files with 937 additions and 316 deletions
-```
+## Overview
 
-A lot of time went lost trying to make sense of the project, I was planning to
-document it, or approach it through testing, but at the end, it seemed easier
-to do it from scratch.
+lcc-hub is a web platform built with React, one of the many popular ever-changing
+SPA frameworks to build interactive web applications, suitable for people in a hurry.
 
-## How to not repeat the same mistakes?
+lcc-hub provides content to the computer science community at _Universidad de Sonora_, and
+a supplementary tool for students to track progress.
 
-One suggestion is to document our thoughts. As we lack expertise, we explore
-may ideas until we run out of time, and then, we inadvertently cover
-our tracks. With documentation
-we could share knowledge, explain decisions, and facilitate resources to others. Also,
-exposing ourselves in this way force us to be conscious in how we approach
-the project, and the results are more honest.
+### **Tutorials**
 
-The idea isn't new, this blog post ['Documentation as way to build Community'](https://labs.quansight.org/blog/2020/03/documentation-as-a-way-to-build-community)
-may convince you to give more importance to documentation in your next projects.
+**Start here as a new lcc-hub developer**.
 
-## Approach
+- installation guide
+- local setup
+- remote setup
 
-Let's use a [Documentation System](https://documentation.divio.com/)
-for the next reasons:
+### **How-to guides**
 
-1. It was recommended in Hacker News
-2. Seems to be used by numpy, django, etc.
+Practical **step-by-step guide** for making changes to the code.
 
-If we have some first hand experience using a methodology to write our documentation, we will
-be better equipped to use documentation from some big projects.
+- adding a feature
+- making a component with react?
+
+### **Explanation**
+
+Explanation and analysis of some concepts/decisions while developing this application.
+
+- why this tech stack
+- working with react
+- working with nextjs
+- working with firebase
+
+### **Reference**
+
+- functional documentation
+- architecture
+- commitizen
