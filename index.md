@@ -20,6 +20,12 @@ SPA frameworks to build interactive web applications, suitable for people in a h
 lcc-hub provides content to the computer science community at _Universidad de Sonora_, and
 a supplementary tool for students to track progress.
 
+### _Features_
+
+- Yes
+
+The documentation provides four type of docs, suitable for the progression of learning to use and modify lcc-hub.
+
 ### **Tutorials**
 
 **Start here as a new lcc-hub developer**.
@@ -48,4 +54,5 @@ Explanation and analysis of some concepts/decisions while developing this applic
 
 - functional documentation
 - architecture
+- folder structure
 - commitizen

@@ -7,7 +7,6 @@ has_children: true
 
 # Tutorials
 
-To make it as easy as possible to write documentation in plain Markdown,
-most UI components are styled using default Markdown elements with few
-additional CSS classes needed.
+Start here as a new lcc-hub developer. Tutorials will hold your hand so you can
+run the code either in your computer or in the deployment server.
 {: .fs-6 .fw-300 }
