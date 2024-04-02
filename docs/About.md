@@ -1,7 +1,6 @@
 ---
-title: Home
-layout: default
-nav_exclude: true
+title: About
+layout: about
 ---
 
 # **An attempt to document the lcc hub social service project**
