@@ -23,7 +23,7 @@ Cuando alguien hace un GET request a la dirección `https://lcc-hub.unison.mx`, 
 
 ## **Código fuente**
 
-El código fuente se divide en [Frontend](https://github.com/enriquegiottonini/lcchub-dev) y en [Backend](https://github.com/enriquegiottonini/lcchub-backend-dev). Para evitar duplicar información, se recomienda revisar los repositorios de cada parte para obtener información sobre como replicar en ambiente local.
+El código fuente se divide en [Frontend](https://github.com/Mahn17/lcchub-dev) y en [Backend](https://github.com/enriquegiottonini/lcchub-backend-dev). Para evitar duplicar información, se recomienda revisar los repositorios de cada parte para obtener información sobre como replicar en ambiente local.
 
 ## **Actualización de contenido**
 
